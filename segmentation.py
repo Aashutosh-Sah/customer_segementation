@@ -51,5 +51,4 @@ plt.figure(figsize=(8, 5))
 sns.scatterplot(data=df_pca, x='PC1', y='PC2', hue=df_pca['Cluster'], palette='viridis', s=100)
 plt.title('Customer Segmentation')
 plt.show()
-
 print(f"Optimal Number of Clusters: {best_k}")
