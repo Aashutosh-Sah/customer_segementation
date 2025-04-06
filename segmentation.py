@@ -10,6 +10,7 @@ from sklearn.metrics import silhouette_score
 # Load dataset (Replace with actual dataset)
 df = pd.read_csv("customer_data.csv")
 
+
 # Data Preprocessing
 df.dropna(inplace=True)  # Drop missing values
 categorical_features = df.select_dtypes(include=['object']).columns
